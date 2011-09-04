@@ -1,0 +1,24 @@
+This is a demo app for a talk that I gave at CakeFest 2011.
+
+### Installing
+
+- Install RabbitMQ
+- Install librabbitmq.
+- Install python, or make sure you have it already.
+- Make sure you have `easy_install` or `pip` available.
+- `easy_install sparkplug`.
+- `sudo pecl install ampq`
+- Create an app/Config/database.php file.
+
+Once everything is installed, create a table:
+
+	CREATE TABLE `page_views` (
+	  `id` char(36) NOT NULL,
+	  `user_agent` varchar(255) DEFAULT NULL,
+	  `location` varchar(255) DEFAULT NULL,
+	  `time` datetime DEFAULT NULL,
+	  PRIMARY KEY (`id`)
+	);
+
+Visit the `/` route.
+
