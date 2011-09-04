@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: consume
+Version: 0.0.1
+Summary: an example event consumer
+Home-page: UNKNOWN
+Author: Mark Story
+Author-email: mark@mark-story.com
+License: MIT
+Description: UNKNOWN
+Keywords: example amqp tutorial
+Platform: UNKNOWN

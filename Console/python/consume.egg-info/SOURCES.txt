@@ -1,0 +1,8 @@
+setup.py
+consume/__init__.py
+consume.egg-info/PKG-INFO
+consume.egg-info/SOURCES.txt
+consume.egg-info/dependency_links.txt
+consume.egg-info/entry_points.txt
+consume.egg-info/requires.txt
+consume.egg-info/top_level.txt

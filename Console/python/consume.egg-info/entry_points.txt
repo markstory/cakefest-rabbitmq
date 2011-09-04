@@ -1,0 +1,3 @@
+[sparkplug.consumers]
+echo = consume:Consumer
+
